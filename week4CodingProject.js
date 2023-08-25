@@ -32,10 +32,12 @@ for (let i = 0; i < names.length; i++) {
 console.log(con);
 
 //3. How do you access the last element of any array?
-
+const lastElement = myArray[myArray.length - 1];
+console.log(lastElement);
 
 //4. How do you access the first element of any array?
-
+const firstElement = myArray[0];
+console.log(firstElement);
 
 
 //5. Create a new array called nameLengths. Write a loop to iterate over the previously created names array and add the length of each name to the nameLengths array.
